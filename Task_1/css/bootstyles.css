@@ -1,0 +1,489 @@
+
+body{
+    font-family: "Signika";
+}
+#home{
+   
+    background-color: #005a8d;
+    
+}
+#home h1{
+    color: #faf1e6;
+}
+#home button
+{
+    margin-top: 5%;
+    margin-right: 4%;
+}
+#home img
+{
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-bottom: 55px;
+    /* transform: rotate(5deg); */
+}
+#home img:hover:before {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px #faf1e6;
+}
+#home img:hover {
+    color: #faf1e6;
+    box-shadow: 0 0 15px #faf1e6;
+    text-shadow: 0 0 15px #faf1e6;
+  }
+.container-fluid{
+    padding: 2% 10%;
+}
+.navbar_d{
+padding: 0% 1%;
+}
+.navbar-light
+{
+    color:#faf1e6 ;
+}
+.navbar-brand:hover {
+    transform: scale(1.1);
+  }
+.nav-item:hover {
+    transform: scale(1.1);
+    border-bottom: #faf1e6 1px solid;
+    transition: .5s;
+  }
+.bt-design:hover {
+    transform: scale(1.1);
+  }
+
+
+#home h1{
+    font-family: "Signika";
+    font-size: 4rem;
+    line-height:1.5;
+    
+}
+#home p
+{
+    font-size: 1.5rem;
+}
+/* Navbar Design */
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.navbar
+{
+    padding: 0%;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.quality-design
+{
+    font-size: 2rem;
+}
+
+.navbar-brand
+{
+    font-family: "Cinzel Decorative";
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.Qualities_Design
+{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top:85px;
+    padding-bottom:85px;
+    text-align: center;
+}
+.p_icon{
+    color: #005a80;
+    
+}
+.Qualities_Design:hover {
+    transform: scale(1.1);
+    
+  }
+
+/* .p_icon:hover{
+    color: #005a8d; */
+}
+.p_text{
+    color: grey;
+    font-size: 1.1rem;
+}
+
+/* Testimonials Section For PC */
+
+#Testimonials  
+{
+    padding: 7% 8%;
+    background-color: #005a8d;
+    color: #fff;
+    text-align: center;
+}
+
+#Testimonials h3{
+    font-size: 2rem;
+    line-height: 2;
+    padding: 5px;
+
+}
+.testimonial-img
+{
+    width: 15%;
+    margin: 20px;
+}
+.testimonial-img-web
+{
+    width: 10%;
+    margin: 20px;
+}
+.div-design-testimonial
+{
+    padding-left:25px;
+    padding-right: 25px;
+}
+.carousel-item
+{
+    padding: 2% 5%;
+}
+
+@media only screen and (max-width: 600px){
+    #Testimonials
+    {
+        padding-top: 25%;
+        padding-bottom: 20%;
+        padding-left: 0px;
+        padding-right: 0px;
+        background-color: #005a8d;
+        color: #fff;
+        text-align: center;
+        margin: 0%;
+    }
+    #Testimonials h3{
+        font-size: 1.2rem;
+        line-height: 2;
+        padding: 1px;
+    }
+    .testimonial-img
+    {
+        width: 10%;
+        margin: 20px;
+    }
+    .testimonial-img-web
+    {
+        width: 8%;
+        margin: 20px;
+    }
+    .div-design-testimonial
+    {
+        padding-left:1px;padding-right: 1px;
+    }
+}
+
+
+.projects
+{
+    color: #ff7b54;
+}
+
+
+/* ##########COMPANIES############ */
+#Companies
+{
+    background-color: #005a8d;
+    color: #fff;
+    padding: 5% 5%;
+    margin-top: 0%;
+    text-align: center;
+}
+.company-logo
+{
+    
+    width: 20%;
+    padding: 20px;
+    margin: 2px;
+    
+}
+@media only screen and (max-width: 600px)
+{
+    .company-logo
+    {
+    
+        width: 40%;
+        padding: 20px;
+        margin: 2px;
+    }
+}
+.company-logo:hover
+{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.company-p{ 
+    
+    /* background-color: #faf1e6; */
+    width: fit-content;
+    padding-left: 10%;
+    border-radius: 3px; 
+    font-size: 2rem;
+    color: #FFF;
+}
+
+
+/* ############_STUDY_SECTION_############ */
+#study-section
+{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+#study-section .card
+{
+    margin: 10px;
+}
+.card-body
+{
+    color: grey;
+}
+.study_icon{
+    color: #005a8d;
+    
+}
+#study-section .card:hover
+{
+    transform: scale(1.1);
+    transition: .5s;
+}
+/* ############_STUDY_SECTION_############ */
+
+/* ############_SKILLS_SECTION_############ */
+#Skills
+{
+    background-color: #0a81ab;
+    color: #faf1e6;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+#Skills h3
+{
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 1px;
+}
+#Skills .card
+{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* #############Progress-Bar_1-html############# */
+.progress-bar2 {
+    height: 18px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+  }
+  
+  .progress-moved .progress-bar2 {
+    width: 85%; 
+    background-color: #005a8d;  
+    animation: progressAnimation 6s;
+  }
+  
+  @keyframes progressAnimation {
+    0%   { width: 5%; background-color: #0a81ab;}
+    100% { width: 85%; background-color: #005a8d; }
+  }
+  
+/* #############Progress-Bar_2-CSS############# */
+.progress-bar3 {
+    height: 18px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+  }
+  
+  .progress-moved3 .progress-bar3 {
+    width: 65%; 
+    background-color: #ff7b54;  
+    animation: progressAnimation3 6s;
+  }
+  
+  @keyframes progressAnimation3 {
+    0%   { width: 5%; background-color: #ffb26b;}
+    100% { width: 65%; background-color: #ff7b54; }
+  }
+  /* #############Progress-Bar_3-Photoshop############# */
+
+  .progress-bar4 {
+    height: 18px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+  }
+  
+  .progress-moved4 .progress-bar4 {
+    width: 75%; 
+    background-color: #005a8d;  
+    animation: progressAnimation4 6s;
+  }
+  
+  @keyframes progressAnimation4 {
+    0%   { width: 5%; background-color: #0a81ab;}
+    100% { width: 75%; background-color: #005a8d; }
+  }
+
+  /* #############Progress-Bar_4-Priemum Pro############# */
+
+  .progress-bar5 {
+    height: 18px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+  }
+  
+  .progress-moved5 .progress-bar5 {
+    width: 60%; 
+    background-color: #ff7b54;  
+    animation: progressAnimation5 6s;
+  }
+  
+  @keyframes progressAnimation5 {
+    0%   { width: 5%; background-color: #ffb26b;}
+    100% { width: 60%; background-color: #ff7b54; }
+  }
+   /* #############Progress-Bar_4- Java ############# */
+
+   .progress-bar6 {
+    height: 18px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+  }
+  
+  .progress-moved6 .progress-bar6 {
+    width: 70%; 
+    background-color: #005a8d;  
+    animation: progressAnimation6 6s;
+  }
+  
+  @keyframes progressAnimation6 {
+    0%   { width: 5%; background-color: #0a81ab;}
+    100% { width: 70%; background-color: #005a8d; }
+  }
+     /* #############Progress-Bar_4- Android ############# */
+
+     .progress-bar7 {
+        height: 18px;
+        border-radius: 30px;
+        background-image: 
+          linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+        transition: 0.4s linear;  
+        transition-property: width, background-color;    
+      }
+      
+      .progress-moved7 .progress-bar7 {
+        width: 80%; 
+        background-color: #ff7b54;  
+        animation: progressAnimation7 6s;
+      }
+      
+      @keyframes progressAnimation7 {
+        0%   { width: 5%; background-color: #ffb26b;}
+        100% { width: 80%; background-color: #ff7b54; }
+      }
+/* #############-CONACT-############# */
+
+#contact
+{
+    background-color: #fff;
+    margin: 2% 2% 0%;
+    padding: 5% 10% 0%;
+    
+}
+#contact h3{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: Lato;
+    font-weight: bold;
+    /* color:#232323; */
+    color: #005a80;
+}
+#contact p{
+    font-size:1.5rem;
+    line-height: 1;
+}
+.icons-social
+{
+    padding: 1%;
+    margin: 0%;
+    color: black;
+}
+a:design{
+  text-decoration: none;
+}
+.design
+{
+    margin-top: 25%;
+    margin-bottom: 0%;
+    padding-bottom: 0px;
+}
+.fotter
+{
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 25px;
+  background-color: #005a80;
+}
+@media only screen and (max-width: 600px)
+{
+  #contact h3
+  {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: Lato;
+    font-weight: bold;
+
+  }
+  #contact
+  {
+    background-color: #fff;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 35px;  
+  }
+  .phone-copyright
+  {
+    font-size: 1rem;
+    margin-top:3px;
+    padding-top:6px ;
+  }
+  .icons-social
+{
+    padding: 2%;
+    margin: 0%;
+    color: black;
+}
+}
